@@ -1,0 +1,128 @@
+/* block */
+.#{$block-selector} {
+    margin-bottom: $block-module-margin-bottom;
+    position: relative;
+    padding: $block-module-padding;
+    background: transparent;
+    .#{$block-heading-selector}{
+        font-size: 18px;
+        padding: 0;
+        position:relative;
+        margin:0 0 20px;
+        font-weight: 500;
+        .urgent,
+        .featured{
+            font-size: 12px;
+        }
+    }
+}
+// Sidebar
+.sidebar,
+.#{$app-prefix}-sidebar {
+    .widget{        
+        padding: 30px;
+        margin: 0 0 30px 0;    
+        background: $white;
+        border: 1px solid $border-color;
+        @include border-radius(6px);                
+        &.widget_search{            
+            border: none;
+            padding: 0;
+            @include border-radius(0);
+        }
+        &#calendar_wrap{
+            padding: 0;
+        }
+        &.widget_job_filter_widget,
+        &.widget_employer_filter_widget,
+        &.widget_candidate_filter_widget{
+          padding: 30px;
+          border: 1px solid $border-color;  
+          background-color: $white;        
+        }
+        &.widget_tag_cloud{           
+           padding-bottom: 15px;
+        }
+        &.widget_apus_candidate_info,
+        &.widget_apus_candidate_contact_info,
+        &.widget_apus_employer_maps{
+            overflow: hidden;                        
+            .candidate_profile,
+            .candidate-detail-location,
+            .employer-detail-location{                
+                outline: none;                
+            }
+        }
+        &.widget_apus_candidate_contact_info,
+        &.widget_apus_employer_maps{
+            .job_maps_sidebar{
+                padding: 25px 0 0 0;
+            }
+        }
+        &.widget_apus_job_info{            
+            .type-job{
+                font-weight: 400;   
+                font-size: $font-size-base;
+            }
+            .btn-apply{
+                background-color: $brand-warning;
+                border-color: $brand-warning;
+                @include hover-focus-active(){
+                    border-color: darken($brand-warning, 5%);
+                    background-color: darken($brand-warning, 5%);
+                }
+            }
+        }
+    }
+    // widet porducts list
+    .apus-products-list{
+        border-style: solid;
+        border-color: $border-color;
+        border-width:0 1px 1px;
+        .product-block{
+            padding: 20px;
+            margin: 0;
+        }
+    }
+    // widget instagram
+    .row.instagram-pics{
+        margin-left: -6px;
+        margin-right: -6px;
+        > [class*="col-md"]{
+            padding-left: 6px;
+            padding-right: 6px;
+            margin-bottom: 12px;
+        }
+    }
+    // widget single images
+    .widget_apus_single_image{
+        margin-bottom: 30px;
+    }
+    // fix for sidebar job
+    .filter-listing-form{
+        // overflow: hidden;
+        @include border-radius($border-radius-base);
+    }
+}
+.page-shop{
+    .sidebar,
+    .#{$app-prefix}-sidebar {
+        .widget{
+            .#{$block-heading-selector}{
+                font-size: 15px;
+                margin: 0 0 20px;
+                font-weight: 600;
+                text-transform:uppercase;
+                letter-spacing:1px;
+            }
+        }
+    }
+}
+
+.sidebar{
+    .widget{      
+        &.widget_candidate_filter_widget{
+            @include box-shadow(none);
+        }
+    }
+}

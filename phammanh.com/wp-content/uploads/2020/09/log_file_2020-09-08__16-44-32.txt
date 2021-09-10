@@ -1,0 +1,93 @@
+
+---Downloaded files---
+The import files for: Home 1 were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = https://phammanh.com/fuck
+Data file = /home/shopfuzz/public_html/phammanh.com/fuck/wp-content/themes/workio/inc/vendors/one-click-demo-import/default/dummy-data.xml
+Widget file = /home/shopfuzz/public_html/phammanh.com/fuck/wp-content/themes/workio/inc/vendors/one-click-demo-import/default/widgets.wie
+Customizer file = not defined!
+Redux files:
+workio_theme_options -> /home/shopfuzz/public_html/phammanh.com/fuck/wp-content/themes/workio/inc/vendors/one-click-demo-import/default/redux-options.json 
+
+
+---pt-ocdi/before_widgets_import---
+
+
+---Importing widgets---
+Sidebar Default : 
+
+woocommerce_product_categories - Categories - Site does not support widget
+woocommerce_layered_nav - Colors - Site does not support widget
+woocommerce_products - Latest Products - Site does not support widget
+woocommerce_price_filter - Filter by price - Site does not support widget
+
+Jobs filter sidebar : 
+
+Job Alert Form - Job Alert - Imported
+Job Filter - No Title - Imported
+
+Jobs filter top sidebar : 
+
+Job Filter (Horizontal) - No Title - Imported
+
+Job single sidebar : 
+
+Job Detail:: Information - No Title - Imported
+Job Detail:: Employer Information - No Title - Imported
+Job Detail::  Maps - Job Location - Imported
+Job Detail:: Statistics - No Title - Imported
+
+Employers filter sidebar : 
+
+Employer Filter - No Title - Imported
+
+Employers filter top sidebar : 
+
+Employer Filter (Horizontal) - No Title - Imported
+
+Employer single sidebar : 
+
+Employer Detail:: Information - Company Information - Imported
+Employer Detail:: Contact Information - Contact Information - Imported
+
+Candidates filter sidebar : 
+
+Candidate Alert Form - Candidate Alert - Imported
+Candidate Filter - No Title - Imported
+
+Candidates filter top sidebar : 
+
+Candidate Filter (Horizontal) - No Title - Imported
+
+Candidate single sidebar : 
+
+Candidate Detail:: Information - Job Overview - Imported
+Candidate Detail:: Contact Information - Contact Information - Imported
+Candidate Detail:: Candidate CV - Download Resume - Imported
+
+User Profile sidebar : 
+
+Apus User Short Profile - No Title - Imported
+
+Blog sidebar : 
+
+Search - No Title - Imported
+Categories - Categories Post - Imported
+Apus Recent Posts Widget - Latest Post - Imported
+Tag Cloud - Tags - Imported
+
+Shop sidebar : 
+
+Apus Search Widget - Search - Imported
+woocommerce_product_categories - Product categories - Site does not support widget
+woocommerce_products - Recent Products - Site does not support widget
+woocommerce_price_filter - Filter by price - Site does not support widget
+
+
+
+---Importing Redux settings---
+Redux settings import for: workio_theme_options finished successfully!
+
+---pt-ocdi/after_import---
+

@@ -1,0 +1,346 @@
+/* Change Autocomplete styles in Chrome*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {	
+    @include animation(autofill 0s forwards);
+}
+
+input::-webkit-input-placeholder {  	
+  	@include opacity(1);
+  	@include transition($linear);  	
+}
+
+input::-moz-input-placeholder {  	
+  	@include opacity(1);
+  	@include transition($linear);  	
+}
+
+input::placeholder {
+  	@include opacity(1);
+  	@include transition($linear);
+}
+
+input:focus::-webkit-input-placeholder {
+  	@include opacity(0);
+}
+
+input:focus::-moz-input-placeholder {
+  	@include opacity(0);
+}
+
+input:focus::placeholder {
+  	@include opacity(0);
+}
+
+label:focus input::-webkit-input-placeholder {
+  	@include opacity(0);
+}
+
+label:focus input::-moz-input-placeholder {
+  	@include opacity(0);
+}
+
+label:focus input::placeholder {
+  	@include opacity(0);
+}
+
+textarea::-webkit-textarea-placeholder {  	
+  	@include opacity(1);
+  	@include transition($linear);  	
+}
+
+textarea::-moz-textarea-placeholder {  	
+  	@include opacity(1);
+  	@include transition($linear);  	
+}
+
+textarea::placeholder {
+  	@include opacity(1);
+  	@include transition($linear);
+}
+
+textarea:focus::-webkit-textarea-placeholder {
+  	@include opacity(0);
+}
+
+textarea:focus::-moz-textarea-placeholder {
+  	@include opacity(0);
+}
+
+textarea:focus::placeholder {
+  	@include opacity(0);
+}
+
+label:focus textarea::-webkit-textarea-placeholder {
+  	@include opacity(0);
+}
+
+label:focus textarea::-moz-textarea-placeholder {
+  	@include opacity(0);
+}
+
+label:focus textarea::placeholder {
+  	@include opacity(0);
+}
+
+input[type=date]::-webkit-clear-button,
+input[type=date]::-webkit-inner-spin-button,
+input[type=date]::-webkit-calendar-picker-indicator {
+    display: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea {		
+	@include input-theme-base($white,$input-border,$input-color);
+}
+
+.wpcf7-form{
+	label{
+		display: block;
+		font-weight: 400;		
+		margin-bottom: 25px;
+	}
+	input[type="text"],
+	input[type="email"],
+	input[type="url"],
+	input[type="password"],
+	input[type="search"],
+	input[type="number"],
+	input[type="tel"],
+	input[type="range"],
+	input[type="date"],
+	input[type="month"],
+	input[type="week"],
+	input[type="time"],
+	input[type="datetime"],
+	input[type="datetime-local"],
+	input[type="color"],
+	textarea {		
+		width: 100%;
+	}
+	textarea{
+		min-height: 160px;
+		resize:none;
+	}
+}
+
+select {
+	color: $input-color;
+	cursor: pointer;
+	outline: none;	
+	padding: 6px 15px;
+	font-size: 16px;
+	border: solid 1px $border-color;
+	background: url("data:image/svg+xml;utf8,<svg viewBox='0 0 140 140' width='24' height='24' xmlns='http://www.w3.org/2000/svg'><g><path d='m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51,51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z' fill='gray'/></g></svg>") no-repeat;
+	background-size: 13px;
+	background-position: calc(100% - 12px) center;
+	background-repeat: no-repeat;
+	background-color: $white;
+	@include border-radius(0);	
+	@include transition($linear);
+	@include appearance(none);
+	@include hover-focus-active() {
+		outline: none;
+		border-color: $theme-color;
+		background-color: $white;
+	}	
+	option{		
+		color: inherit;
+		font-size: inherit;
+		font-family: $font-family-base;
+	}
+	&:-moz-focusring {
+		color: transparent;		
+		@include text-shadow(0 0 0 lighten($black, 60%));
+	}	
+}
+
+input[type="search"] {
+	&::-webkit-search-decoration {
+		display: none;
+	}
+}
+
+// remove dotted outline/border in Firefox
+button:focus,
+a:focus, a:active,
+button::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+select::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner {
+  	outline: none !important;
+}
+
+input[type="submit"] {	
+	@include button-theme-base(48px,16px,$white,$white,$theme-color,darken($theme-color, 5%),$theme-color,8px $padding-base-horizontal);
+	@include border-radius($border-radius-base);	
+	&.mfp-close{
+		padding: 0;
+		border: none;
+		background-color: transparent;
+	}	
+}
+
+/* Search
+------------------------------------------------*/
+.searchform{
+	.input-search{
+		padding: 15px;		
+		line-height: 1.5;
+		@include rtl-border-right(0);
+	}
+	.btn-search{
+		color: #adafac;
+		vertical-align: top;		
+		padding: 12px $padding-xs-horizontal;
+	}
+	.input-group-btn{
+		line-height: 100%;
+	}
+}
+
+@mixin button-inverse( $suffixclass,  $color ,$background ){
+  &.btn-#{$suffixclass}{
+      &:hover{ 
+        color:$color;
+        background:$background;
+      }
+  }
+}
+
+@mixin button-outline( $suffixclass, $color, $hovercolor ){
+  &.btn-#{$suffixclass}{
+      background:transparent;
+      border-color:$color;
+      color:$color;
+      &:hover{
+        color:$hovercolor;
+        border-color:$color;
+        background:$color;
+      }
+  }
+}
+.btn-outline{
+	@include button-outline(default, #fff, $theme-color );
+	@include button-outline(primary, $brand-primary, #fff );
+	@include button-outline(success, $brand-success, #FFFFFF );
+	@include button-outline(info, $brand-info, #FFFFFF );
+	@include button-outline(danger, $brand-danger, #FFFFFF );
+	@include button-outline(warning, $brand-warning, #FFFFFF );
+}
+.btn-inverse{
+	@include button-inverse(primary, $brand-primary, #FFFFFF );
+	@include button-inverse(success, $brand-success, #FFFFFF );
+	@include button-inverse(info, $brand-info, #FFFFFF );
+	@include button-inverse(danger, $brand-danger, #FFFFFF );
+	@include button-inverse(warning, $brand-warning, #FFFFFF );
+	@include button-inverse(theme, $theme-color, #FFFFFF );
+}
+
+.btn-theme {
+  @include button-variant(#fff, $theme-color, $theme-color);
+  &:focus,
+  &:hover{
+  	color: #fff;
+  }
+}
+.btn-theme-second {
+  @include button-variant(#fff, $theme-color-second, $theme-color-second);
+  &:focus,
+  &:hover{
+  	color: #fff;
+  }
+}
+.btn-theme.btn-outline{
+	color: $theme-color;
+	border-color: $theme-color;
+	background: transparent;
+	&:hover,&:focus{
+		color: #fff;
+		background: $theme-color;
+		border-color: $theme-color;
+	}
+}
+.deleted,
+.btn-remove-job-applied{
+	color: $brand-danger !important;
+}
+.btn-action-icon{
+	> span{
+		@include rtl-margin-left(5px);
+	}
+}
+.readmore{
+	font-weight: 600;
+	color: $theme-color;
+	display: inline-block;
+	padding:0 0 5px;
+	position: relative;
+	&:before{
+		content:'';
+		position: absolute;
+		bottom: 0;
+		right:0;
+		@include transition(width 0.2s ease-in-out 0s);
+		@include size(0,2px);
+		background: $theme-color;
+	}
+	i{
+		@include rtl-margin-left(5px);
+		@include transition(all 0.2s ease-in-out 0s);
+	}
+	&:hover,&:focus{
+		&:before{
+			left: 0;
+			width: 100%;
+		}
+	}
+}
+.view-detail{
+	font-weight: 600;
+	color: $theme-color;
+	display: inline-block;
+	@include transition(all 0.2s ease-in-out 0s);
+	position: relative;
+	&:before{
+		content:'';
+		position:absolute;
+		@include size(0,1px);
+		background-color: $theme-color;
+		bottom:-2px;
+		right:0;
+		@include transition(all 0.2s ease-in-out 0s);
+	}
+	&:hover,&:focus{
+		&:before{
+			left: 0;
+			width: 100%;
+		}
+	}
+	i{
+		@include rtl-margin-left(5px);
+		@include transition(all 0.2s ease-in-out 0s);
+	}
+}

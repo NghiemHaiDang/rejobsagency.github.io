@@ -1,0 +1,73 @@
+/*-------------------------------------------
+    No Margin
+-------------------------------------------*/
+.no-margin{
+    margin: 0 !important;
+    .pagination{
+        margin: 0;
+    }
+}
+/*-------------------------------------------
+    No Padding
+-------------------------------------------*/
+.no-padding{
+    padding: 0 !important;
+}
+.no-position{
+   position: static !important;
+}
+.inline-block{
+    @include inline-block();
+}
+.no-background{
+    @include box-shadow(none);
+    background: none!important;
+}
+.no-effect a:before{
+    content: none!important;
+}
+.mb-0{
+    margin-bottom: 0px !important;
+}
+.mb-5{
+    margin-bottom: 5px !important;
+}
+.mb-10{
+    margin-bottom: 10px !important;
+}
+.mb-15{
+    margin-bottom: 15px !important;
+}
+.mb-20{
+    margin-bottom: 20px !important;
+}
+.mb-25{
+    margin-bottom: 25px !important;
+}
+.mb-30{
+    margin-bottom: 30px !important;
+}
+// Clear Box
+// -------------------------
+%clear-box{
+    padding : 0px !important;
+    border  : 0px !important;
+}
+/*------------------------------------*\
+    Clear List Style
+\*------------------------------------*/
+.clear-list{
+    @include clear-list;
+}
+/*------------------------------------*\
+    Border
+\*------------------------------------*/
+.no-border{
+    border: 0px !important;
+}
+/*------------------------------------*\
+    No background
+\*------------------------------------*/
+.bg-transparent{
+    background: transparent !important;
+}

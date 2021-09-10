@@ -1,0 +1,235 @@
+.main-page {
+	#respond{
+		.comment-reply-title{
+			margin:0 !important;
+		}
+	} 	
+	#comments{
+		clear: both;
+		@media(min-width: 1200px){
+			margin-bottom: 20px;
+		}
+	}
+}
+.main-content{
+	padding-bottom: 20px;
+	@include media(desktop){
+		padding-bottom: 50px;
+		padding-top: 30px;
+	}
+}
+#apus-main-content{
+	position:relative;
+}
+.candidates-filter-top-sidebar-wrapper ,
+.employers-filter-top-sidebar-wrapper ,
+.jobs-filter-top-sidebar-wrapper {
+	margin-top: -30px;
+}
+body.no-footer{
+	#apus-footer{
+		display: none !important;
+	}
+}
+div.wpcf7-validation-errors{
+	margin: 0;
+	padding: 15px;
+}
+.contact-form-content{
+	padding: $theme-padding;
+	background: $contact-bg;
+	min-height: 260px;
+	.rounded{
+		@include rtl-margin-right(10px);
+		color: $white;
+		@include size(40px,40px);
+		background: darken($body-bg, 20%);
+		.fa,.icon{
+			@include font-size(font-size,16px);
+			margin: 13px;
+		}
+	}
+	small{
+		color: darken($text-color, 20%);
+	}
+}
+
+.page-404{	
+	padding: 40px 0;
+	@include media(desktop){
+		padding: 80px 0;
+	}
+	.top-image{
+		margin-bottom: 0;
+	}
+}
+
+.btn-back-home{	
+	@include button-theme-base(52px,18px,$white,$white,$theme-color,darken($theme-color, 5%),$theme-color,10px 35px);	
+}
+
+.title-big{	
+	@include headings-theme-base(30px,25px,capitalize);
+	@media(min-width: 1200px){
+		@include headings-theme-base(45px,55px,capitalize);
+	}
+}
+
+//sidebar-left
+.inner-dashboard{
+	.widget{
+		background-color: transparent !important;
+	}
+	&.container-fluid{
+		padding:0;
+		@include transition(all 0.2s ease-in-out 0s);
+		@media(min-width: 992px){
+			&.main-right{
+				padding-right:250px;
+			}
+			&.left-main {
+				padding-left:250px;
+			}
+			&.active{
+				&.main-right{
+					padding-right:0;
+				}
+				&.left-main {
+					padding-left:0;
+				}
+				.sidebar-left{
+					left:-250px;
+				}
+				.sidebar-right{
+					right:-250px;
+				}
+			}
+			.sidebar{
+				@include transition(all 0.2s ease-in-out 0s);
+				padding:0;
+				top:60px;
+				width:250px;
+				height: 100vh;
+				z-index: 1;
+				position:fixed;
+				background:#131c23;
+			}
+			.sidebar-left{
+				left:0;
+			}
+			.sidebar-right{
+				right:0;
+			}
+			aside.sidebar{
+				height: 100%;
+			}
+		}
+		.main-page{
+			width:100%;
+		}
+		.elementor-section .elementor-container{
+			max-width: 100%;
+		}
+	}
+	.widget_apus_user_short_profile{
+		border:0 !important;
+		padding:0 !important;
+		.user_short_profile{
+			padding:0 !important;
+		}
+	}
+	.sidebar:not(.sidebar-job){
+		padding:0;
+		background: #131c23;
+	}
+	.close-sidebar-btn{
+		margin-bottom: 0;
+		border:none;
+		padding:15px;
+	}
+}
+.menu_short_profile{
+	background:#1d2a37;
+	a{
+		color: #586d82;
+		&:hover,&:focus{
+			color: #fff;
+		}
+	}
+	list-style: none;
+	padding:0;
+	margin:0;
+	li{
+		a{
+			padding: 15px 10px;
+			font-weight: 500;
+			border-bottom: 1px dashed #283848;
+			text-transform: capitalize ;
+			display: block;
+			i{
+				font-size: 16px;
+				@include rtl-margin-right(15px);
+				display: inline-block;
+				&:before{
+					margin:0;
+				}
+			}
+		}
+		&:hover,
+		&.active{
+			> a{
+				background: #151b20;
+				color: #fff;
+			}
+		}
+	}
+}
+
+.wrapper-footer-dashboard,
+.inner-dashboard{
+	@media(min-width: 992px){
+		&[class*="left"]{
+			padding-left:250px;
+		}
+		&[class*="right"]{
+			padding-right:250px;
+		}
+	}
+	.sidebar:not(.sidebar-job){
+		padding: 0;
+		background: #1d2a37;		
+	}	
+}
+
+.top_profile{
+	padding: 30px;	
+	.user-logo{
+		margin: 0 0 25px;
+	}
+	.logo-inner{
+		@include square(120px);				
+		padding: 5px;		
+		background: $white;
+		overflow: hidden;		
+		margin:auto;
+		@include border-radius(50%);
+		img{
+			@include border-radius(50%);
+		}
+	}
+	.title{
+		font-size: 14px;		
+		margin: 0;
+		letter-spacing: 1px;
+		color: $white;
+		text-transform: uppercase;		
+	}
+	.categories{
+		a{
+			color: $text-color;			
+			@include hover-focus-active(){
+				color: $theme-color;
+			}
+		}
+	}
+}

@@ -1,0 +1,437 @@
+
+---Downloaded files---
+The import files for: Home 1 were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = https://phammanh.com/fuck
+Data file = /home/shopfuzz/public_html/phammanh.com/fuck/wp-content/themes/workio/inc/vendors/one-click-demo-import/default/dummy-data.xml
+Widget file = /home/shopfuzz/public_html/phammanh.com/fuck/wp-content/themes/workio/inc/vendors/one-click-demo-import/default/widgets.wie
+Customizer file = not defined!
+Redux files:
+workio_theme_options -> /home/shopfuzz/public_html/phammanh.com/fuck/wp-content/themes/workio/inc/vendors/one-click-demo-import/default/redux-options.json 
+
+
+------
+New AJAX call!
+[WARNING] Failed to import pa_color Blue
+[WARNING] Failed to import product_type candidate_package
+[WARNING] Failed to import product_tag Career
+[WARNING] Failed to import product_cat Clothing
+[WARNING] Failed to import product_type contact_package
+[WARNING] Failed to import product_type cv_package
+[WARNING] Failed to import product_cat Decor
+[WARNING] Failed to import product_visibility exclude-from-catalog
+[WARNING] Failed to import product_visibility exclude-from-search
+[WARNING] Failed to import product_type external
+[WARNING] Failed to import product_visibility featured
+[WARNING] Failed to import product_tag Finance
+[WARNING] Failed to import pa_color Gray
+[WARNING] Failed to import pa_color Green
+[WARNING] Failed to import product_type grouped
+[WARNING] Failed to import product_cat Hoodies
+[WARNING] Failed to import product_tag Job
+[WARNING] Failed to import product_type job_package
+[WARNING] Failed to import pa_size Large
+[WARNING] Failed to import product_tag Managers
+[WARNING] Failed to import pa_size Medium
+[WARNING] Failed to import product_cat Music
+[WARNING] Failed to import product_visibility outofstock
+[WARNING] Failed to import product_tag People
+[WARNING] Failed to import product_visibility rated-1
+[WARNING] Failed to import product_visibility rated-2
+[WARNING] Failed to import product_visibility rated-3
+[WARNING] Failed to import product_visibility rated-4
+[WARNING] Failed to import product_visibility rated-5
+[WARNING] Failed to import pa_color Red
+[WARNING] Failed to import product_type resume_package
+[WARNING] Failed to import product_type simple
+[WARNING] Failed to import pa_size Small
+[WARNING] Failed to import product_cat Tshirts
+[WARNING] Failed to import product_cat Uncategorized
+[WARNING] Failed to import product_type variable
+[WARNING] Failed to import pa_color Yellow
+[WARNING] Failed to import product_tag Yourself
+[WARNING] Failed to import product_cat Accessories
+
+
+------
+New AJAX call!
+[WARNING] Failed to import pa_color Blue
+[WARNING] Failed to import product_type candidate_package
+[WARNING] Failed to import product_tag Career
+[WARNING] Failed to import product_cat Clothing
+[WARNING] Failed to import product_type contact_package
+[WARNING] Failed to import product_type cv_package
+[WARNING] Failed to import product_cat Decor
+[WARNING] Failed to import product_visibility exclude-from-catalog
+[WARNING] Failed to import product_visibility exclude-from-search
+[WARNING] Failed to import product_type external
+[WARNING] Failed to import product_visibility featured
+[WARNING] Failed to import product_tag Finance
+[WARNING] Failed to import pa_color Gray
+[WARNING] Failed to import pa_color Green
+[WARNING] Failed to import product_type grouped
+[WARNING] Failed to import product_cat Hoodies
+[WARNING] Failed to import product_tag Job
+[WARNING] Failed to import product_type job_package
+[WARNING] Failed to import pa_size Large
+[WARNING] Failed to import product_tag Managers
+[WARNING] Failed to import pa_size Medium
+[WARNING] Failed to import product_cat Music
+[WARNING] Failed to import product_visibility outofstock
+[WARNING] Failed to import product_tag People
+[WARNING] Failed to import product_visibility rated-1
+[WARNING] Failed to import product_visibility rated-2
+[WARNING] Failed to import product_visibility rated-3
+[WARNING] Failed to import product_visibility rated-4
+[WARNING] Failed to import product_visibility rated-5
+[WARNING] Failed to import pa_color Red
+[WARNING] Failed to import product_type resume_package
+[WARNING] Failed to import product_type simple
+[WARNING] Failed to import pa_size Small
+[WARNING] Failed to import product_cat Tshirts
+[WARNING] Failed to import product_cat Uncategorized
+[WARNING] Failed to import product_type variable
+[WARNING] Failed to import pa_color Yellow
+[WARNING] Failed to import product_tag Yourself
+[WARNING] Failed to import product_cat Accessories
+
+
+------
+New AJAX call!
+[WARNING] Failed to import pa_color Blue
+[WARNING] Failed to import product_type candidate_package
+[WARNING] Failed to import product_tag Career
+[WARNING] Failed to import product_cat Clothing
+[WARNING] Failed to import product_type contact_package
+[WARNING] Failed to import product_type cv_package
+[WARNING] Failed to import product_cat Decor
+[WARNING] Failed to import product_visibility exclude-from-catalog
+[WARNING] Failed to import product_visibility exclude-from-search
+[WARNING] Failed to import product_type external
+[WARNING] Failed to import product_visibility featured
+[WARNING] Failed to import product_tag Finance
+[WARNING] Failed to import pa_color Gray
+[WARNING] Failed to import pa_color Green
+[WARNING] Failed to import product_type grouped
+[WARNING] Failed to import product_cat Hoodies
+[WARNING] Failed to import product_tag Job
+[WARNING] Failed to import product_type job_package
+[WARNING] Failed to import pa_size Large
+[WARNING] Failed to import product_tag Managers
+[WARNING] Failed to import pa_size Medium
+[WARNING] Failed to import product_cat Music
+[WARNING] Failed to import product_visibility outofstock
+[WARNING] Failed to import product_tag People
+[WARNING] Failed to import product_visibility rated-1
+[WARNING] Failed to import product_visibility rated-2
+[WARNING] Failed to import product_visibility rated-3
+[WARNING] Failed to import product_visibility rated-4
+[WARNING] Failed to import product_visibility rated-5
+[WARNING] Failed to import pa_color Red
+[WARNING] Failed to import product_type resume_package
+[WARNING] Failed to import product_type simple
+[WARNING] Failed to import pa_size Small
+[WARNING] Failed to import product_cat Tshirts
+[WARNING] Failed to import product_cat Uncategorized
+[WARNING] Failed to import product_type variable
+[WARNING] Failed to import pa_color Yellow
+[WARNING] Failed to import product_tag Yourself
+[WARNING] Failed to import product_cat Accessories
+
+
+------
+New AJAX call!
+[WARNING] Failed to import pa_color Blue
+[WARNING] Failed to import product_type candidate_package
+[WARNING] Failed to import product_tag Career
+[WARNING] Failed to import product_cat Clothing
+[WARNING] Failed to import product_type contact_package
+[WARNING] Failed to import product_type cv_package
+[WARNING] Failed to import product_cat Decor
+[WARNING] Failed to import product_visibility exclude-from-catalog
+[WARNING] Failed to import product_visibility exclude-from-search
+[WARNING] Failed to import product_type external
+[WARNING] Failed to import product_visibility featured
+[WARNING] Failed to import product_tag Finance
+[WARNING] Failed to import pa_color Gray
+[WARNING] Failed to import pa_color Green
+[WARNING] Failed to import product_type grouped
+[WARNING] Failed to import product_cat Hoodies
+[WARNING] Failed to import product_tag Job
+[WARNING] Failed to import product_type job_package
+[WARNING] Failed to import pa_size Large
+[WARNING] Failed to import product_tag Managers
+[WARNING] Failed to import pa_size Medium
+[WARNING] Failed to import product_cat Music
+[WARNING] Failed to import product_visibility outofstock
+[WARNING] Failed to import product_tag People
+[WARNING] Failed to import product_visibility rated-1
+[WARNING] Failed to import product_visibility rated-2
+[WARNING] Failed to import product_visibility rated-3
+[WARNING] Failed to import product_visibility rated-4
+[WARNING] Failed to import product_visibility rated-5
+[WARNING] Failed to import pa_color Red
+[WARNING] Failed to import product_type resume_package
+[WARNING] Failed to import product_type simple
+[WARNING] Failed to import pa_size Small
+[WARNING] Failed to import product_cat Tshirts
+[WARNING] Failed to import product_cat Uncategorized
+[WARNING] Failed to import product_type variable
+[WARNING] Failed to import pa_color Yellow
+[WARNING] Failed to import product_tag Yourself
+[WARNING] Failed to import product_cat Accessories
+
+
+------
+New AJAX call!
+[WARNING] Failed to import pa_color Blue
+[WARNING] Failed to import product_type candidate_package
+[WARNING] Failed to import product_tag Career
+[WARNING] Failed to import product_cat Clothing
+[WARNING] Failed to import product_type contact_package
+[WARNING] Failed to import product_type cv_package
+[WARNING] Failed to import product_cat Decor
+[WARNING] Failed to import product_visibility exclude-from-catalog
+[WARNING] Failed to import product_visibility exclude-from-search
+[WARNING] Failed to import product_type external
+[WARNING] Failed to import product_visibility featured
+[WARNING] Failed to import product_tag Finance
+[WARNING] Failed to import pa_color Gray
+[WARNING] Failed to import pa_color Green
+[WARNING] Failed to import product_type grouped
+[WARNING] Failed to import product_cat Hoodies
+[WARNING] Failed to import product_tag Job
+[WARNING] Failed to import product_type job_package
+[WARNING] Failed to import pa_size Large
+[WARNING] Failed to import product_tag Managers
+[WARNING] Failed to import pa_size Medium
+[WARNING] Failed to import product_cat Music
+[WARNING] Failed to import product_visibility outofstock
+[WARNING] Failed to import product_tag People
+[WARNING] Failed to import product_visibility rated-1
+[WARNING] Failed to import product_visibility rated-2
+[WARNING] Failed to import product_visibility rated-3
+[WARNING] Failed to import product_visibility rated-4
+[WARNING] Failed to import product_visibility rated-5
+[WARNING] Failed to import pa_color Red
+[WARNING] Failed to import product_type resume_package
+[WARNING] Failed to import product_type simple
+[WARNING] Failed to import pa_size Small
+[WARNING] Failed to import product_cat Tshirts
+[WARNING] Failed to import product_cat Uncategorized
+[WARNING] Failed to import product_type variable
+[WARNING] Failed to import pa_color Yellow
+[WARNING] Failed to import product_tag Yourself
+[WARNING] Failed to import product_cat Accessories
+
+
+------
+New AJAX call!
+[WARNING] Failed to import pa_color Blue
+[WARNING] Failed to import product_type candidate_package
+[WARNING] Failed to import product_tag Career
+[WARNING] Failed to import product_cat Clothing
+[WARNING] Failed to import product_type contact_package
+[WARNING] Failed to import product_type cv_package
+[WARNING] Failed to import product_cat Decor
+[WARNING] Failed to import product_visibility exclude-from-catalog
+[WARNING] Failed to import product_visibility exclude-from-search
+[WARNING] Failed to import product_type external
+[WARNING] Failed to import product_visibility featured
+[WARNING] Failed to import product_tag Finance
+[WARNING] Failed to import pa_color Gray
+[WARNING] Failed to import pa_color Green
+[WARNING] Failed to import product_type grouped
+[WARNING] Failed to import product_cat Hoodies
+[WARNING] Failed to import product_tag Job
+[WARNING] Failed to import product_type job_package
+[WARNING] Failed to import pa_size Large
+[WARNING] Failed to import product_tag Managers
+[WARNING] Failed to import pa_size Medium
+[WARNING] Failed to import product_cat Music
+[WARNING] Failed to import product_visibility outofstock
+[WARNING] Failed to import product_tag People
+[WARNING] Failed to import product_visibility rated-1
+[WARNING] Failed to import product_visibility rated-2
+[WARNING] Failed to import product_visibility rated-3
+[WARNING] Failed to import product_visibility rated-4
+[WARNING] Failed to import product_visibility rated-5
+[WARNING] Failed to import pa_color Red
+[WARNING] Failed to import product_type resume_package
+[WARNING] Failed to import product_type simple
+[WARNING] Failed to import pa_size Small
+[WARNING] Failed to import product_cat Tshirts
+[WARNING] Failed to import product_cat Uncategorized
+[WARNING] Failed to import product_type variable
+[WARNING] Failed to import pa_color Yellow
+[WARNING] Failed to import product_tag Yourself
+[WARNING] Failed to import product_cat Accessories
+
+
+------
+New AJAX call!
+[WARNING] Failed to import pa_color Blue
+[WARNING] Failed to import product_type candidate_package
+[WARNING] Failed to import product_tag Career
+[WARNING] Failed to import product_cat Clothing
+[WARNING] Failed to import product_type contact_package
+[WARNING] Failed to import product_type cv_package
+[WARNING] Failed to import product_cat Decor
+[WARNING] Failed to import product_visibility exclude-from-catalog
+[WARNING] Failed to import product_visibility exclude-from-search
+[WARNING] Failed to import product_type external
+[WARNING] Failed to import product_visibility featured
+[WARNING] Failed to import product_tag Finance
+[WARNING] Failed to import pa_color Gray
+[WARNING] Failed to import pa_color Green
+[WARNING] Failed to import product_type grouped
+[WARNING] Failed to import product_cat Hoodies
+[WARNING] Failed to import product_tag Job
+[WARNING] Failed to import product_type job_package
+[WARNING] Failed to import pa_size Large
+[WARNING] Failed to import product_tag Managers
+[WARNING] Failed to import pa_size Medium
+[WARNING] Failed to import product_cat Music
+[WARNING] Failed to import product_visibility outofstock
+[WARNING] Failed to import product_tag People
+[WARNING] Failed to import product_visibility rated-1
+[WARNING] Failed to import product_visibility rated-2
+[WARNING] Failed to import product_visibility rated-3
+[WARNING] Failed to import product_visibility rated-4
+[WARNING] Failed to import product_visibility rated-5
+[WARNING] Failed to import pa_color Red
+[WARNING] Failed to import product_type resume_package
+[WARNING] Failed to import product_type simple
+[WARNING] Failed to import pa_size Small
+[WARNING] Failed to import product_cat Tshirts
+[WARNING] Failed to import product_cat Uncategorized
+[WARNING] Failed to import product_type variable
+[WARNING] Failed to import pa_color Yellow
+[WARNING] Failed to import product_tag Yourself
+[WARNING] Failed to import product_cat Accessories
+
+
+------
+New AJAX call!
+[WARNING] Failed to import pa_color Blue
+[WARNING] Failed to import product_type candidate_package
+[WARNING] Failed to import product_tag Career
+[WARNING] Failed to import product_cat Clothing
+[WARNING] Failed to import product_type contact_package
+[WARNING] Failed to import product_type cv_package
+[WARNING] Failed to import product_cat Decor
+[WARNING] Failed to import product_visibility exclude-from-catalog
+[WARNING] Failed to import product_visibility exclude-from-search
+[WARNING] Failed to import product_type external
+[WARNING] Failed to import product_visibility featured
+[WARNING] Failed to import product_tag Finance
+[WARNING] Failed to import pa_color Gray
+[WARNING] Failed to import pa_color Green
+[WARNING] Failed to import product_type grouped
+[WARNING] Failed to import product_cat Hoodies
+[WARNING] Failed to import product_tag Job
+[WARNING] Failed to import product_type job_package
+[WARNING] Failed to import pa_size Large
+[WARNING] Failed to import product_tag Managers
+[WARNING] Failed to import pa_size Medium
+[WARNING] Failed to import product_cat Music
+[WARNING] Failed to import product_visibility outofstock
+[WARNING] Failed to import product_tag People
+[WARNING] Failed to import product_visibility rated-1
+[WARNING] Failed to import product_visibility rated-2
+[WARNING] Failed to import product_visibility rated-3
+[WARNING] Failed to import product_visibility rated-4
+[WARNING] Failed to import product_visibility rated-5
+[WARNING] Failed to import pa_color Red
+[WARNING] Failed to import product_type resume_package
+[WARNING] Failed to import product_type simple
+[WARNING] Failed to import pa_size Small
+[WARNING] Failed to import product_cat Tshirts
+[WARNING] Failed to import product_cat Uncategorized
+[WARNING] Failed to import product_type variable
+[WARNING] Failed to import pa_color Yellow
+[WARNING] Failed to import product_tag Yourself
+[WARNING] Failed to import product_cat Accessories
+
+
+---pt-ocdi/before_widgets_import---
+
+
+---Importing widgets---
+Sidebar Default : 
+
+woocommerce_product_categories - Categories - Site does not support widget
+woocommerce_layered_nav - Colors - Site does not support widget
+woocommerce_products - Latest Products - Site does not support widget
+woocommerce_price_filter - Filter by price - Site does not support widget
+
+Jobs filter sidebar : 
+
+Job Alert Form - Job Alert - Imported
+Job Filter - No Title - Imported
+
+Jobs filter top sidebar : 
+
+Job Filter (Horizontal) - No Title - Imported
+
+Job single sidebar : 
+
+Job Detail:: Information - No Title - Imported
+Job Detail:: Employer Information - No Title - Imported
+Job Detail::  Maps - Job Location - Imported
+Job Detail:: Statistics - No Title - Imported
+
+Employers filter sidebar : 
+
+Employer Filter - No Title - Imported
+
+Employers filter top sidebar : 
+
+Employer Filter (Horizontal) - No Title - Imported
+
+Employer single sidebar : 
+
+Employer Detail:: Information - Company Information - Imported
+Employer Detail:: Contact Information - Contact Information - Imported
+
+Candidates filter sidebar : 
+
+Candidate Alert Form - Candidate Alert - Imported
+Candidate Filter - No Title - Imported
+
+Candidates filter top sidebar : 
+
+Candidate Filter (Horizontal) - No Title - Imported
+
+Candidate single sidebar : 
+
+Candidate Detail:: Information - Job Overview - Imported
+Candidate Detail:: Contact Information - Contact Information - Imported
+Candidate Detail:: Candidate CV - Download Resume - Imported
+
+User Profile sidebar : 
+
+Apus User Short Profile - No Title - Imported
+
+Blog sidebar : 
+
+Search - No Title - Imported
+Categories - Categories Post - Imported
+Apus Recent Posts Widget - Latest Post - Imported
+Tag Cloud - Tags - Imported
+
+Shop sidebar : 
+
+Apus Search Widget - Search - Imported
+woocommerce_product_categories - Product categories - Site does not support widget
+woocommerce_products - Recent Products - Site does not support widget
+woocommerce_price_filter - Filter by price - Site does not support widget
+
+
+
+---Importing Redux settings---
+Redux settings import for: workio_theme_options finished successfully!
+
+---pt-ocdi/after_import---
+
